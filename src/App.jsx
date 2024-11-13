@@ -7,11 +7,13 @@ import Login from './pages/Login/Login'
 import ResetPassword from './pages/ResetPassword/ResetPassword'
 import Menu from './pages/Menu/Menu'
 import Lodge from './pages/Lodge/Lodge'
+import ScrollToTopButton from './components/ScrollToTop/ScrollToTop'
 
 const App = () => {
   return (
     <div>
       <Navbar />
+      <ScrollToTopButton />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />

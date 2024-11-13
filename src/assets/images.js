@@ -44,9 +44,39 @@ import mutton_khaja from './mutton_khaja.jpg'
 import egg_khaja from './egg_khaja.jpg'
 import mix_khaja from './mix_khaja.jpg'
 
+import fish_icon from './fish_icon.jpg'
+import fish_fry from './fry_fish.jpg'
+import fish_curry from './fish_curry.jpg'
+import fish_gravy from './fish_gravy.jpg'
+
+import beverage_icon from './beverage_icon.jpg'
+import coke from './coke.jpg'
+import fanta from './fanta.jpg'
+import sprite from './sprite.jpg'
+import pepsi from './pepsi.jpg'
+import mountain_dew from './mountain_dew.jpg'
+import mirinda from './mirinda.jpg'
+import water from './water.jpg'
+import frooti from './frooti.jpg'
+import red_bull from './red_bull.jpg'
+import red_bull_original from './red_bull_original.jpg'
+import yogurt from './yogurt.jpg'
+
+import chilli_icon from './chilli_icon.jpg'
+import chicken_chilli from './chicken_chilli.jpg'
+import buff_chilli from './buff_chilli.jpg'
+import aloo_chilli from './aloo_chilli.jpg'
+import mutton_chilli from './mutton_chilli.jpg'
+
+import chowmein from './chowmein.png';
+import vegchowmein from './vegchowmein.jpg';
+import chickenchowmein from './chickenchowmein.jpg';
+import buffchowmein from './buffchowmein.jpg';
+import egg_chowmein from './egg_chowmein.jpg';
+import mix_chowmein from './mix_chowmein.jpg';
+
 
 import momo from './momos.jpeg';
-import chowmein from './chowmein.png';
 import vegkhana from './vegkhana.jpg';
 import masu from './masu.png';
 import plus from './plus.png';
@@ -55,9 +85,7 @@ import vegmomo from './veg_momo.jpg';
 import chickenmomo from './chicken momo.jpg';
 import frymomo from './fried_momo.jpg'
 import buffmomo from './buffmomo.jpg';
-import vegchowmein from './vegchowmein.jpg';
-import chickenchowmein from './chickenchowmein.jpg';
-import buffchowmein from './buffchowmein.jpg';
+
 
 export const assets ={
     hamburger_Icon,
@@ -107,8 +135,36 @@ export const assets ={
     egg_khaja,
     mix_khaja,
 
-    momo,
+    fish_icon,
+    fish_fry,
+    fish_curry,
+    fish_gravy,
+
+    beverage_icon,
+    coke,
+    fanta,
+    sprite,
+    pepsi,
+    mountain_dew,
+    mirinda,
+    water,
+    frooti,
+    red_bull,
+    red_bull_original,
+    yogurt,
+
+    chilli_icon,
+    chicken_chilli,
+    buff_chilli,
+    aloo_chilli,
+    mutton_chilli,
+
+    vegchowmein,
+    chickenchowmein,
+    buffchowmein,
     chowmein,
+
+    momo,
     vegkhana,
     masu,
     plus,
@@ -116,9 +172,6 @@ export const assets ={
     vegmomo,
     chickenmomo,
     buffmomo,
-    vegchowmein,
-    chickenchowmein,
-    buffchowmein,
     frymomo,
 
 
@@ -153,6 +206,19 @@ export const category_list = [
         category_name: "Thukpa",
         category_image:thukpa_icon
     },
+    {
+        category_name: "Fish",
+        category_image:fish_icon
+    },
+    {
+        category_name: "Beverage",
+        category_image:beverage_icon
+    },
+    {
+        category_name: "Chilli",
+        category_image:chilli_icon
+    },
+    
     
 ]
 
@@ -208,9 +274,9 @@ export const food_list =[
     },
     {
         _id: "26",
-        name: "Milk Glass",
+        name: "Milk",
         image: milk,
-        price: 40,
+        price: '40',
         description:"We serve fresh, creamy milk, perfect on its own or paired with any of our beverages.",
         category:"Tea/Coffee"
     },
@@ -408,6 +474,182 @@ export const food_list =[
         category:"Khaja Set"
     },
     {
+        _id: "49",
+        name: "Fish Fry",
+        image: fish_fry,
+        price:200,
+        description:"Fish Fry is a popular dish made with marinated fish, seasoned with local spices and fried to a crispy golden texture. ",
+        category:"Fish"
+    },
+    {
+        _id: "50",
+        name: "Fish Curry",
+        image: fish_curry,
+        price:150,
+        description:"Fish Curry is a flavorful dish made with fish simmered in a rich, spiced gravy of tomatoes, onions, and traditional Nepali spices, served with rice for a satisfying meal.",
+        category:"Fish"
+    },
+    {
+        _id: "50",
+        name: "Fish Gravy",
+        image: fish_gravy,
+        price:150,
+        description:"Fish Gravy is a flavorful dish made with fish simmered in a rich, spiced gravy of tomatoes, onions, and traditional Nepali spices, served with rice for a satisfying meal.",
+        category:"Fish"
+    },
+    {
+        _id: "51",
+        name: "Mineral Water",
+        image: water,
+        price:30,
+        description:"Sealed purified water sourced from natural minerals, offering a refreshing and clean hydration option, ideal for on-the-go consumption.",
+        category:"Beverage"
+    },
+    {
+        _id: "52",
+        name: "Coke",
+        image: coke,
+        price:60,
+        description:"Classic carbonated soft drink known for its refreshing, sweet, and fizzy taste, perfect for quenching your thirst.",
+        category:"Beverage"
+    },
+    {
+        _id: "53",
+        name: "Fanta",
+        image: fanta,
+        price:60,
+        description:"Classic carbonated soft drink known for its refreshing, sweet, and fizzy taste, perfect for quenching your thirst.",
+        category:"Beverage"
+    },
+    {
+        _id: "54",
+        name: "Sprite",
+        image: sprite,
+        price:60,
+        description:"Classic carbonated soft drink known for its refreshing, sweet, and fizzy taste, perfect for quenching your thirst.",
+        category:"Beverage"
+    },
+    {
+        _id: "54",
+        name: "Pepsi",
+        image: pepsi,
+        price:60,
+        description:"Classic carbonated soft drink known for its refreshing, sweet, and fizzy taste, perfect for quenching your thirst.",
+        category:"Beverage"
+    },
+    {
+        _id: "55",
+        name: "Mountain Dew",
+        image: mountain_dew,
+        price:60,
+        description:"Classic carbonated soft drink known for its refreshing, sweet, and fizzy taste, perfect for quenching your thirst.",
+        category:"Beverage"
+    },
+    {
+        _id: "56",
+        name: "Mirinda",
+        image: mirinda,
+        price:60,
+        description:"Classic carbonated soft drink known for its refreshing, sweet, and fizzy taste, perfect for quenching your thirst.",
+        category:"Beverage"
+    },
+    {
+        _id: "57",
+        name: "Frooti",
+        image: frooti,
+        price:30,
+        description:"Popular mango drink in Nepal, known for its sweet, refreshing taste made from real mangoes, offering a cool and fruity beverage experience.",
+        category:"Beverage"
+    },
+    {
+        _id: "58",
+        name: "Red Bull",
+        image: red_bull,
+        price:150,
+        description:"Energy drink that boosts alertness and energy with a blend of caffeine, taurine, and B-vitamins, providing a quick and refreshing pick-me-up.",
+        category:"Beverage"
+    },
+    {
+        _id: "59",
+        name: "Red Bull Blue",
+        image: red_bull_original,
+        price:350,
+        description:"Energy drink that boosts alertness and energy with a blend of caffeine, taurine, and B-vitamins, providing a quick and refreshing pick-me-up.",
+        category:"Beverage"
+    },
+    {
+        _id: "60",
+        name: "Chicken Chilli",
+        image: chicken_chilli,
+        price:300,
+        description:"Spicy, flavorful dish made with tender chicken pieces stir-fried in a savory sauce with green chilies, onions, and bell peppers, offering a perfect balance of heat and tang.",
+        category:"Chilli"
+    },
+    {
+        _id: "61",
+        name: "Buff Chilli",
+        image: buff_chilli,
+        price:300,
+        description:"Spicy, flavorful dish made with tender buff pieces stir-fried in a savory sauce with green chilies, onions, and bell peppers, offering a perfect balance of heat and tang.",
+        category:"Chilli"
+    },
+    {
+        _id: "62",
+        name: "Alu Chilli",
+        image: aloo_chilli,
+        price:200,
+        description:"Spicy, flavorful dish made with tender poatato pieces stir-fried in a savory sauce with green chilies, onions, and bell peppers, offering a perfect balance of heat and tang.",
+        category:"Chilli"
+    },
+    {
+        _id: "63",
+        name: "Mutton Chilli",
+        image: mutton_chilli,
+        price:400,
+        description:"Spicy, flavorful dish made with tender mutton stir-fried in a savory sauce with green chilies, onions, and bell peppers, offering a perfect balance of heat and tang.",
+        category:"Chilli"
+    },
+    {
+        _id: "64",
+        name: "Veg Chowmein",
+        image: vegchowmein,
+        price:100,
+        description:"Nepali-style stir-fried noodle dish, made with crunchy vegetables like cabbage, carrots, and bell peppers, tossed in a savory soy-based sauce for a flavorful and satisfying meal.",
+        category:"Chowmein"
+    },
+    {
+        _id: "65",
+        name: "Egg Chowmein",
+        image: egg_chowmein,
+        price:150,
+        description:"Nepali-style stir-fried noodle dish, made with Egg, crunchy vegetables like cabbage, carrots, and bell peppers, tossed in a savory soy-based sauce for a flavorful and satisfying meal.",
+        category:"Chowmein"
+    },
+    {
+        _id: "66",
+        name: "Chicken Chowmein",
+        image: chickenchowmein,
+        price:150,
+        description:"Nepali-style stir-fried noodle dish, made with chicken, crunchy vegetables like cabbage, carrots, and bell peppers, tossed in a savory soy-based sauce for a flavorful and satisfying meal.",
+        category:"Chowmein"
+    },
+    {
+        _id: "67",
+        name: "Mix Chowmein",
+        image: mix_chowmein,
+        price:300,
+        description:"Nepali-style stir-fried noodle dish, made with chicken, buff, egg, crunchy vegetables like cabbage, carrots, and bell peppers, tossed in a savory soy-based sauce for a flavorful and satisfying meal.",
+        category:"Chowmein"
+    },
+    {
+        _id: "68",
+        name: "Buff Chowmein",
+        image: buffchowmein,
+        price:150,
+        description:"Nepali-style stir-fried noodle dish, made with buff, crunchy vegetables like cabbage, carrots, and bell peppers, tossed in a savory soy-based sauce for a flavorful and satisfying meal.",
+        category:"Chowmein"
+    }, 
+    {
         _id: "2",
         name: "Chicken Momo",
         image: chickenmomo,
@@ -423,28 +665,5 @@ export const food_list =[
         description:"Buffalo meat and vegetables wrapped with spices and dough",
         category:"Momo"
     },
-    {
-        _id: "4",
-        name: "Veg Chowmein",
-        image: vegchowmein,
-        price:70,
-        description:"Noodles with mix vegetables and sauces",
-        category:"Chowmein"
-    },
-    {
-        _id: "5",
-        name: "Chicken Chowmein",
-        image: chickenchowmein,
-        price:90,
-        description:"Noodles with mix vegetables, chicken pieces and sauces",
-        category:"Chowmein"
-    },
-    {
-        _id: "6",
-        name: "Veg Chowmein",
-        image: buffchowmein,
-        price:85,
-        description:"Noodles with mix vegetables, buffalo meat pieces and sauces",
-        category:"Chowmein"
-    }, 
+    
 ]
