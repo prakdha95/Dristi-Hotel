@@ -34,7 +34,7 @@ import egg_thukpa from './egg_thukpa.jpg'
 import vegkhana1 from './vegkhana1.png';
 import chickenkhana from './chickenkhana.png';
 import muttonkhana from './muttonkhana.jpg';
-import egg_khana from './egg_khana.jpg';
+import egg_khana from './anda_khana.jpg';
 import matcha_khana from './matcha_khana.jpg';
 
 import momo from './momos.jpeg';
