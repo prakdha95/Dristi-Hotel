@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "https://prakdha95.github.io/dristi-hotel",
+  
   "dependencies": {
     "axios": "^1.7.7",
     "react": "^18.3.1",

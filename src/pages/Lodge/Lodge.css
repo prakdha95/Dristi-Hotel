@@ -1,10 +1,20 @@
 .lodge_section{
     padding: 12px var(--primary-padding);
 }
+@media (max-width:500px) {
+    .lodge_section{
+        padding: var(--mobile-padding);
+    }
+}
 .lodge_section .container{
     width: 100%;
     height: 70vh;
     position: relative;
+}
+@media (max-width:500px) {
+    .lodge_section .container{
+        height: 50vh;
+    }
 }
 .lodge_section .back_image{
     width: 100%;
@@ -36,6 +46,12 @@
     gap: 12px;
     color: var(--accent-color);
     line-height: 1;
+}
+@media (max-width:800px) {
+    .info_container_top .contact{
+        flex-direction: column;
+        align-items: start;
+    }
 }
 .info_container_top .contact div{
     display: flex;

@@ -37,6 +37,14 @@ import muttonkhana from './muttonkhana.jpg';
 import egg_khana from './anda_khana.jpg';
 import matcha_khana from './matcha_khana.jpg';
 
+import khajaset from './khajaset.jpg'
+import vegkhajaset from './vegkhajaset.jpg'
+import chicken_khaja from './chicken_khaja.jpg'
+import mutton_khaja from './mutton_khaja.jpg'
+import egg_khaja from './egg_khaja.jpg'
+import mix_khaja from './mix_khaja.jpg'
+
+
 import momo from './momos.jpeg';
 import chowmein from './chowmein.png';
 import vegkhana from './vegkhana.jpg';
@@ -50,12 +58,6 @@ import buffmomo from './buffmomo.jpg';
 import vegchowmein from './vegchowmein.jpg';
 import chickenchowmein from './chickenchowmein.jpg';
 import buffchowmein from './buffchowmein.jpg';
-
-import khajaset from './khajaset.jpg'
-import vegkhajaset from './vegkhajaset.jpg'
-import buffkhajaset from './buffkhajaset.jpg'
-import porkkhajaset from './porkkhajaset.jpg'
-
 
 export const assets ={
     hamburger_Icon,
@@ -98,6 +100,13 @@ export const assets ={
     egg_khana,
     matcha_khana,
 
+    khajaset,
+    vegkhajaset,
+    chicken_khaja,
+    mutton_khaja,
+    egg_khaja,
+    mix_khaja,
+
     momo,
     chowmein,
     vegkhana,
@@ -111,10 +120,7 @@ export const assets ={
     chickenchowmein,
     buffchowmein,
     frymomo,
-    khajaset,
-    buffkhajaset,
-    vegkhajaset,
-    porkkhajaset,
+
 
 }
 export const category_list = [
@@ -131,7 +137,7 @@ export const category_list = [
         category_image:vegkhana
     },
     {
-        category_name: "Newari",
+        category_name: "Khaja Set",
         category_image:khajaset
     },
     {
@@ -362,12 +368,44 @@ export const food_list =[
         category:"Khana Set"
     },
     {
-        _id: "1",
-        name: "Veg Momo",
-        image: vegmomo,
-        price:60,
-        description:"Mix vegetables wrapped with spices and dough",
-        category:"Momo"
+        _id: "45",
+        name: "Chicken Khaja",
+        image: chicken_khaja,
+        price:250,
+        description:"Chicken Khaja Set is a delicious meal with spiced chicken, rice flakes, curries, salads, and achar, offering a flavorful taste of Nepalese cuisine.",
+        category:"Khaja Set"
+    },
+    {
+        _id: "46",
+        name: "Veg Khaja Set",
+        image: vegkhajaset,
+        price:180,
+        description:"Veg Khaja Set is a delicious meal with rice flakes, curries, salads, and achar, offering a flavorful taste of Nepalese cuisine.",
+        category:"Khaja Set"
+    },
+    {
+        _id: "47",
+        name: "Mutton Khaja",
+        image: mutton_khaja,
+        price:350,
+        description:"Mutton Khaja Set is a delicious meal with spiced mutton, rice flakes, curries, salads, and achar, offering a flavorful taste of Nepalese cuisine.",
+        category:"Khaja Set"
+    },
+    {
+        _id: "48",
+        name: "Egg Khaja",
+        image: egg_khaja,
+        price:250,
+        description:"Egg Khaja Set is a delicious meal with boiled eggs, rice flakes, curries, salads, and achar, offering a flavorful taste of Nepalese cuisine.",
+        category:"Khaja Set"
+    },
+    {
+        _id: "48",
+        name: "Mix Khaja",
+        image: mix_khaja,
+        price:400,
+        description:"Mix Khaja Set is a delicious meal with spiced mutton, chicken, egg, rice flakes, curries, salads, and achar, offering a flavorful taste of Nepalese cuisine.",
+        category:"Khaja Set"
     },
     {
         _id: "2",
@@ -408,33 +446,5 @@ export const food_list =[
         price:85,
         description:"Noodles with mix vegetables, buffalo meat pieces and sauces",
         category:"Chowmein"
-    },
-   
-    {
-        _id: "10",
-        name: "Veg Khaja Set",
-        image: vegkhajaset,
-        price:200,
-        description:"Authentic Nepalese khaja set. Rice flakes, mutton curry, vegetables and salads",
-        category:"Newari"
-    },
-    {
-        _id: "11",
-        name: "Buff Khaja Set",
-        image: buffkhajaset,
-        price:250,
-        description:"Authentic Nepalese khaja set. Rice flakes, mutton curry, vegetables and salads",
-        category:"Newari"
-    },
-    {
-        _id: "12",
-        name: "Pork Khaja Set",
-        image: porkkhajaset,
-        price:250,
-        description:"Authentic Nepalese khaja set. Rice flakes, mutton curry, vegetables and salads",
-        category:"Newari"
-    },
-    
-    
-    
+    }, 
 ]
