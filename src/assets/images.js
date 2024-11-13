@@ -1,4 +1,4 @@
-import hamburger_Icon from './hamburger_Icon.png'
+import hamburger_Icon from './hamburger_icon.png'
 import close_icon from './close_icon.png'
 import homepageImage from './homepage.jpg.png';
 import lodge_background from './room_background.png'
