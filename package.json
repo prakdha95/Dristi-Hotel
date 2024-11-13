@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "vite preview"
   },
   "homepage": "https://prakdha95.github.io/dristi-hotel",
   "dependencies": {
