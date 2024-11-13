@@ -151,6 +151,11 @@
 .menu_section .category_items .card_info p{
     font-size: 14px;
     padding-bottom: 8px;
+    height: 120px;
+    overflow-y: auto;
+}
+.menu_section .category_items .card_info b{
+    padding-top: 4px;
 }
 .menu_section .category_items .card_image{
     width: 100%;
