@@ -1,7 +1,7 @@
 import { NavLink, useNavigate } from 'react-router-dom'
 import './Navbar.css'
 import { useState } from 'react'
-import { assets, food_list } from '../../assets/images'
+import { assets } from '../../assets/images'
 
 const Navbar = () => {
 
@@ -29,7 +29,7 @@ const Navbar = () => {
                         <NavLink to={'/'}><li>Home</li></NavLink>
                         <NavLink to={'/menu'}><li>Browse Menu</li></NavLink>
                         <NavLink to={'/lodge'}><li>Lodge Service</li></NavLink>
-                        <NavLink to={'/orders'}><li>Contact Us</li></NavLink>
+                        <NavLink to={'/contact'}><li>Contact Us</li></NavLink>
                     </ul>
                 </div>
                 <div className="nav_btn">
@@ -40,7 +40,8 @@ const Navbar = () => {
                     {
                         !showMenu ? (
                             <div className='open_icon'>
-                                <img src={assets.hamburger_Icon} alt="" />
+                                <button className='menu_btn'>Menu</button>
+                                {/* <img src={assets.hamburger_Icon} alt="" /> */}
                             </div>
                         ) : (
                             <div className='mobile_container'>
@@ -53,7 +54,7 @@ const Navbar = () => {
                                             <NavLink to={'/'}><li>Home</li></NavLink>
                                             <NavLink to={'/menu'}><li>Browse Menu</li></NavLink>
                                             <NavLink to={'/lodge'}><li>Lodge Service</li></NavLink>
-                                            <NavLink to={'/orders'}><li>Contact Us</li></NavLink>
+                                            <NavLink to={'/contact'}><li>Contact Us</li></NavLink>
                                         </ul>
                                     </div>
                                 </div>

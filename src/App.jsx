@@ -8,6 +8,7 @@ import ResetPassword from './pages/ResetPassword/ResetPassword'
 import Menu from './pages/Menu/Menu'
 import Lodge from './pages/Lodge/Lodge'
 import ScrollToTopButton from './components/ScrollToTop/ScrollToTop'
+import Contact from './pages/Contact/Contact'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/reset-password' element={<ResetPassword />} />
         <Route path='/menu' element={<Menu />} />
         <Route path='/lodge' element={<Lodge />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
     </div>

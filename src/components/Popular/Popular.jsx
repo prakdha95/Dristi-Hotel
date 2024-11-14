@@ -11,7 +11,7 @@ const Popular = () => {
             </div>
             <div className="item_card">
                 <div className="card">
-                    <img src={assets.momo} alt="" />
+                    <img src={assets.chicken_steammomo} alt="" />
                     <small>Chicken Momo</small>
                 </div>
                 <div className="card">
@@ -19,24 +19,24 @@ const Popular = () => {
                     <small>Veg Chowmein</small>
                 </div>
                 <div className="card">
-                    <img src={assets.vegkhana} alt="" />
-                    <small>Thakali Khana</small>
+                    <img src={assets.buff_frymomo} alt="" />
+                    <small>Buff Fried Momo</small>
                 </div>
                 <div className="card">
-                    <img src={assets.masu} alt="" />
-                    <small>Khukhura Masu</small>
+                    <img src={assets.chicken_chilli} alt="" />
+                    <small>Chicken Chilli</small>
                 </div>
                 <div className="card">
-                    <img src={assets.momo} alt="" />
-                    <small>Chicken Momo</small>
+                    <img src={assets.chickenchowmein} alt="" />
+                    <small>Chicken Chowmein</small>
                 </div>
                 <div className="card">
-                    <img src={assets.chowmein} alt="" />
-                    <small>Veg Chowmein</small>
+                    <img src={assets.muttonkhana} alt="" />
+                    <small>Mutton Khana</small>
                 </div>
                 <div className="card">
-                    <img src={assets.vegkhana} alt="" />
-                    <small>Thakali Khana</small>
+                    <img src={assets.chicken_khaja} alt="" />
+                    <small>Chicken Khaja</small>
                 </div>
             </div>
         </div>

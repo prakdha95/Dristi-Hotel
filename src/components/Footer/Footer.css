@@ -1,7 +1,7 @@
 footer{
-    padding: var(--primary-padding);
+    padding: 12px var(--primary-padding);
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
     top: 40;
     background-color: #e8e8e8;
@@ -36,6 +36,10 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+.footer_center h4 span{
+    color: var(--accent-color);
+    text-decoration: none;
 }
 .footer_center .email_subscribe div{
     width: 100%;

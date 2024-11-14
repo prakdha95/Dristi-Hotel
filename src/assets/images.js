@@ -1,9 +1,11 @@
 import hamburger_Icon from './hamburger_icon.png'
 import close_icon from './close_icon.png'
+import plus from './plus.png';
+import searchIcon from './search_icon.png';
 import homepageImage from './homepage.jpg.png';
 import lodge_background from './room_background.png'
 
-import tea_icon  from './tea_icon.png'
+import tea_icon  from './tea_icon.jpg'
 import milk_tea from './milk_tea.jpg'
 import black_tea from './black_tea.jpg'
 import lemon_tea from './lemon_tea.jpg'
@@ -31,7 +33,8 @@ import mutton_thukpa from './mutton_thukpa.jpg'
 import mix_thukpa from './mix_thukpa.jpg'
 import egg_thukpa from './egg_thukpa.jpg'
 
-import vegkhana1 from './vegkhana1.png';
+import vegkhana from './vegkhana.jpg';
+import vegkhana1 from './vegkhana1.jpg';
 import chickenkhana from './chickenkhana.png';
 import muttonkhana from './muttonkhana.jpg';
 import egg_khana from './anda_khana.jpg';
@@ -75,21 +78,48 @@ import buffchowmein from './buffchowmein.jpg';
 import egg_chowmein from './egg_chowmein.jpg';
 import mix_chowmein from './mix_chowmein.jpg';
 
+import fry_rice_icon from './fry_rice_icon.jpg';               
+import chicken_fryrice from './chicken_fryrice.jpg';               
+import veg_fryrice from './veg_fryrice.jpg';               
+import egg_fryrice from './egg_fryrice.jpg';               
+import mix_fryrice from './mix_fryrice.jpg';               
+import buff_fryrice from './buff_fryrice.jpg';               
 
-import momo from './momos.jpeg';
-import vegkhana from './vegkhana.jpg';
-import masu from './masu.png';
-import plus from './plus.png';
-import searchIcon from './search_icon.png';
-import vegmomo from './veg_momo.jpg';
-import chickenmomo from './chicken momo.jpg';
 import frymomo from './fried_momo.jpg'
+import momo from './momos.jpeg';
+import vegmomo from './veg_momos.jpg';
+import chickenmomo from './chicken_steammomo.jpg';
 import buffmomo from './buffmomo.jpg';
+import chicken_steammomo from './chicken_steammomo.jpg';
+import chicken_frymomo from './chicken_frymomo.jpg';
+import chicken_chillimomo from './chicken_chillimomo.jpg';
+import chicken_jholmomo from './chicken_jholmomo.jpg';
+import chicken_cmomo from './chicken_cmomo.jpg';
+import buff_frymomo from './buff_frymomo.jpg';
+import buff_cmomo from './buff-cmomo.jpg';
+import veg_momos from './veg_momos.jpg';
 
+import snacks_icon from './snacks_icon.jpg';
+import badam_sadheko from './badam_sadheko.png';
+import chauchau_sadheko from './chauchau_sadheko.jpg';
+import bhatmas_sadheko from './bhatmas_sadheko.jpg';
+import chicken_sadheko from './chicken_sadheko.jpg';
+import buff_sadheko from './buff_sadheko.jpg';
+import chicken_roast from './chicken_roast.jpg';
+import chicken_leg from './chicken_leg.jpg';
+import chicken_curry from './chicken_curry.jpg';
+import chicken_gravy from './chicken_gravy.jpg';
+import chicken_fry from './chicken_fry.jpg';
+import buff_sukuti from './buff_sukuti.jpg';
+import aloo_paratha from './aloo_paratha.jpg';
+
+import masu from './masu.png';
 
 export const assets ={
     hamburger_Icon,
     close_icon,
+    plus,
+    searchIcon,
     homepageImage,
     lodge_background,
 
@@ -123,6 +153,7 @@ export const assets ={
     egg_thukpa,
 
     vegkhana1,
+    vegkhana,
     chickenkhana,
     muttonkhana,
     egg_khana,
@@ -164,17 +195,41 @@ export const assets ={
     buffchowmein,
     chowmein,
 
+    fry_rice_icon,
+    chicken_fryrice,
+    veg_fryrice,
+    egg_fryrice,
+    mix_fryrice,
+    buff_fryrice,
+
     momo,
-    vegkhana,
-    masu,
-    plus,
-    searchIcon,
+    frymomo,
     vegmomo,
     chickenmomo,
     buffmomo,
-    frymomo,
+    chicken_steammomo,
+    chicken_frymomo,
+    chicken_chillimomo,
+    chicken_jholmomo,
+    chicken_cmomo,
+    buff_cmomo,
+    buff_frymomo,
+    veg_momos,
 
+    snacks_icon,
+    badam_sadheko,
+    chauchau_sadheko,
+    bhatmas_sadheko,
+    chicken_sadheko,
+    buff_sadheko,
+    chicken_roast,
+    chicken_leg,
+    chicken_curry,
+    chicken_gravy,
+    chicken_fry,
+    buff_sukuti,
 
+    masu,
 }
 export const category_list = [
     {
@@ -218,6 +273,14 @@ export const category_list = [
         category_name: "Chilli",
         category_image:chilli_icon
     },
+    {
+        category_name: "Fry Rice",
+        category_image:fry_rice_icon
+    },
+    {
+        category_name: "Snacks",
+        category_image:snacks_icon
+    },
     
     
 ]
@@ -226,7 +289,7 @@ export const food_list =[
 
     {
         _id: "20",
-        name: "Milk Tea",
+        name: "Milk Tea ",
         image: milk_tea,
         price:30,
         description:"We brew premium tea, add fresh milk and sugar, and serve it hot",
@@ -650,20 +713,212 @@ export const food_list =[
         category:"Chowmein"
     }, 
     {
-        _id: "2",
-        name: "Chicken Momo",
+        _id: "69",
+        name: "Chicken Fried Rice",
+        image: chicken_fryrice,
+        price:200,
+        description:"Flavorful Nepali dish made by stir-frying rice with chicken, vegetables, and spices. Common ingredients include chicken, eggs, carrots, peas, and onions.",
+        category:"Fry Rice"
+    }, 
+    {
+        _id: "70",
+        name: "Veg Fried Rice",
+        image: veg_fryrice,
+        price:150,
+        description:"Flavorful Nepali dish made by stir-frying rice with vegetables, and spices. Common ingredients include chicken, eggs, carrots, peas, and onions.",
+        category:"Fry Rice"
+    },
+    {
+        _id: "71",
+        name: "Egg Fried Rice",
+        image: egg_fryrice,
+        price:150,
+        description:"Flavorful Nepali dish made by stir-frying rice with egg, vegetables, and spices. Common ingredients include chicken, eggs, carrots, peas, and onions.",
+        category:"Fry Rice"
+    },
+    {
+        _id: "72",
+        name: "Mix Fried Rice",
+        image: mix_fryrice,
+        price:300,
+        description:"Flavorful Nepali dish made by stir-frying rice with chicken, egg, vegetables, and spices. Common ingredients include chicken, eggs, carrots, peas, and onions.",
+        category:"Fry Rice"
+    },  
+    {
+        _id: "73",
+        name: "Buff Fried Rice",
+        image: buff_fryrice,
+        price:300,
+        description:"Flavorful Nepali dish made by stir-frying rice with chicken, egg, vegetables, and spices. Common ingredients include chicken, eggs, carrots, peas, and onions.",
+        category:"Fry Rice"
+    },
+    {
+        _id: "74",
+        name: "Chicken Steam Momo",
         image: chickenmomo,
-        price:100,
-        description:"Chicken and vegetables wrapped with spices and dough",
+        price:140,
+        description:"Chicken Steam Momo is a soft, steamed dumpling filled with seasoned ground chicken and spices, typically served with a spicy dipping sauce.",
         category:"Momo"
     },
     {
-        _id: "3",
-        name: "Buff Momo",
-        image: buffmomo,
-        price:90,
-        description:"Buffalo meat and vegetables wrapped with spices and dough",
+        _id: "75",
+        name: "Chicken Fried Momo",
+        image: chicken_frymomo,
+        price:180,
+        description:"Chicken Fried Momo is a crispy, deep-fried dumpling filled with seasoned ground chicken and spices, served with a spicy dipping sauce.",
         category:"Momo"
+    },
+    {
+        _id: "76",
+        name: "Chicken Chilli Momo",
+        image: chicken_chillimomo,
+        price:200,
+        description:"Chicken Chilli Momo is a flavorful dish where steamed or fried chicken momos are tossed in a spicy, tangy sauce with peppers and onions.",
+        category:"Momo"
+    },
+    {
+        _id: "77",
+        name: "Chicken Jhol Momo",
+        image: chicken_jholmomo,
+        price:180,
+        description:"Chicken Jhol Momo is a steaming hot dumpling filled with seasoned chicken, served in a flavorful, spicy broth for a comforting and tangy experience.",
+        category:"Momo"
+    },
+    {
+        _id: "78",
+        name: "Chicken C Momo",
+        image: chicken_cmomo,
+        price:200,
+        description:"Chicken C Momo is a crispy, deep-fried momo filled with seasoned chicken, served with a tangy and spicy dipping sauce for extra flavor.",
+        category:"Momo"
+    },
+    {
+        _id: "79",
+        name: "Buff Steam Momo",
+        image: buffmomo,
+        price:120,
+        description:"Buff Steam Momo is a soft, steamed dumpling filled with seasoned ground buff and spices, served with a spicy dipping sauce.",
+        category:"Momo"
+    },
+    {
+        _id: "80",
+        name: "Buff Fried Momo",
+        image: buff_frymomo,
+        price:180,
+        description:"Buff Fried Momo is a crispy, deep-fried dumpling filled with seasoned ground buff and spices, served with a spicy dipping sauce.",
+        category:"Momo"
+    },
+    {
+        _id: "81",
+        name: "Buff C Momo",
+        image: buff_cmomo,
+        price:200,
+        description:"Buff C Momo is a crispy, deep-fried momo filled with seasoned buff, served with a tangy and spicy dipping sauce for extra flavor.",
+        category:"Momo"
+    },
+    {
+        _id: "82",
+        name: "Veg Steam Momo",
+        image: veg_momos,
+        price:100,
+        description:"Veg Steam Momo is a soft, steamed dumpling filled with seasoned ground vegetables and spices, served with a spicy dipping sauce.",
+        category:"Momo"
+    },
+    {
+        _id: "83",
+        name: "Badam Sadheko",
+        image: badam_sadheko,
+        price:100,
+        description:"It is a flavorful Nepali snack made of roasted almonds, spices, and sugar, popular for its sweet and spicy taste.",
+        category:"Snacks"
+    },
+    {
+        _id: "84",
+        name: "Chauchau Sadheko",
+        image: chauchau_sadheko,
+        price:100,
+        description:"It is a flavorful Nepali snack made of noodles, spices, and salt, popular for its tangy and spicy taste.",
+        category:"Snacks"
+    },
+    {
+        _id: "85",
+        name: "Bhatmas Sadheko",
+        image: bhatmas_sadheko,
+        price:100,
+        description:"A popular Nepali snack made from roasted soybeans, mixed with spices, mustard oil, and sometimes garlic or lemon. It’s a crunchy, savory treat enjoyed as a snack or appetizer.",
+        category:"Snacks"
+    },
+    {
+        _id: "86",
+        name: "Chicken Sadheko",
+        image: chicken_sadheko,
+        price:300,
+        description:"A flavorful Nepali dish made from grilled or fried chicken tossed with spices, onions, tomatoes, and fresh herbs. It’s a spicy, tangy, and savory snack often served as an appetizer or side dish.",
+        category:"Snacks"
+    },
+    {
+        _id: "87",
+        name: "Buff Sadheko",
+        image: buff_sadheko,
+        price:300,
+        description:"A flavorful Nepali dish made from grilled or fried chicken tossed with spices, onions, tomatoes, and fresh herbs. It’s a spicy, tangy, and savory snack often served as an appetizer or side dish.",
+        category:"Snacks"
+    },
+    {
+        _id: "88",
+        name: "Chicken Roast",
+        image: chicken_roast,
+        price:300,
+        description:"A traditional dish made by marinating chicken in a blend of spices, then slow-roasting it to perfection. The result is tender, flavorful chicken with a smoky, savory taste, often served with rice or flatbreads.",
+        category:"Snacks"
+    },
+    {
+        _id: "89",
+        name: "Chicken Leg Piece",
+        image: chicken_leg,
+        price:200,
+        description:"Flavorful and juicy drumstick or thigh portion of chicken, often seasoned with spices and grilled, baked, or fried. It’s a popular choice for its tender meat and rich taste.",
+        category:"Snacks"
+    },
+    {
+        _id: "90",
+        name: "Chicken Curry",
+        image: chicken_curry,
+        price:150,
+        description:"Nepali dish made with tender chicken simmered in a rich, spiced gravy of tomatoes, onions, garlic, ginger, and a blend of aromatic spices.",
+        category:"Snacks"
+    },
+    {
+        _id: "91",
+        name: "Chicken Gravy",
+        image: chicken_gravy,
+        price:150,
+        description:"Nepali dish made with tender chicken simmered in a rich, spiced gravy of tomatoes, onions, garlic, ginger, and a blend of aromatic spices.",
+        category:"Snacks"
+    },
+    {
+        _id: "92",
+        name: "Chicken Fry",
+        image: chicken_fry,
+        price:300,
+        description:"A crispy and savory dish where marinated chicken pieces are deep-fried until golden and crunchy. It's often seasoned with spices, making it a popular snack or appetizer in Nepali cuisine.",
+        category:"Snacks"
+    },
+    {
+        _id: "93",
+        name: "Buff Sukuti",
+        image: buff_sukuti,
+        price:200,
+        description:"The buff meat is marinated with spices, then dried and often served with onions, garlic, and a side of chutney, offering a chewy, smoky, and flavorful treat.",
+        category:"Snacks"
+    },
+    {
+        _id: "94",
+        name: "Aloo Paratha",
+        image: aloo_paratha,
+        price:60,
+        description:"Flatbread stuffed with a spiced mashed potato filling. It’s typically pan-fried until golden and served with yogurt, pickle, or curry for a hearty and flavorful meal.",
+        category:"Snacks"
     },
     
 ]

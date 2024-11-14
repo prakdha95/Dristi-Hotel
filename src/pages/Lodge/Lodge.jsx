@@ -1,6 +1,6 @@
 import './Lodge.css'
 import { assets } from '../../assets/images'
-import { FaPhone, FaMapMarkerAlt, FaBed, FaCoffee, FaUtensils, FaConciergeBell } from 'react-icons/fa';
+import { FaPhone, FaMapMarkerAlt, FaBed, FaCoffee, FaConciergeBell } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
 const Lodge = () => {

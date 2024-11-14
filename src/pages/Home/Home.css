@@ -54,10 +54,12 @@
 .hero_left .searchForm{ 
     width: 85%;
     position: relative;
+    
 }
 @media (max-width:690px){
     .hero_left .searchForm{ 
         width: 100%;
+        border-top: 2px solid gray;
     }
 }
 .hero_left .searchForm form{
@@ -65,6 +67,11 @@
     border: 1px solid gray;
     border-radius: 100px;
     padding: 2px;
+}
+@media (max-width:690px){
+    .hero_left .searchForm form{ 
+        display: none;
+    }
 }
 .searchItems{
     border: none;

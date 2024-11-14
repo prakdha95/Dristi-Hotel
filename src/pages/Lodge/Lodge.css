@@ -51,6 +51,7 @@
     .info_container_top .contact{
         flex-direction: column;
         align-items: start;
+        gap: 0; 
     }
 }
 .info_container_top .contact div{
